@@ -16,6 +16,11 @@
     border-radius: 5px;
     background: #fd6e0a;
 }
+.btn-primary:hover{
+    background-color: #e7a372;
+    color: #000000;
+    cursor: pointer;
+}
 .btn-secondary{
     color: #fd6e0a;
     font-size: 20px;
@@ -27,6 +32,11 @@
     margin-left: 30px;
     border-color: #fd6e0a;
     
+}
+.btn-secondary:hover{
+    background-color: #e7a372;
+    color: #000000;
+    cursor: pointer;
 }
 .header{
     background-color: #FFF8F3;
@@ -53,6 +63,10 @@ nav ul{
 nav li{
     list-style: none;
     margin-left: 50px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
 }
 /* banner styles */
 .banner{
